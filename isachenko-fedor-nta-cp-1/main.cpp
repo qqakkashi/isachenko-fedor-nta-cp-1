@@ -6,9 +6,12 @@
 //
 
 #include <iostream>
+#include "miller-rabin-test.cpp"
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!";
+    int prime_test = miller(5);
+    std::cout << prime_test;
     return 0;
 }
