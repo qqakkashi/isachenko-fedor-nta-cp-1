@@ -6,7 +6,7 @@
 //
 
 #include <iostream>
-#include "miller-rabin-test.cpp"
+#include "miller-rabin-test.h"
 
 
 int main(int argc, const char * argv[]) {
